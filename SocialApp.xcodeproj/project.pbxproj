@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		478CD173252405AC006B67A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478CD172252405AC006B67A1 /* AppDelegate.swift */; };
 		478CD175252405AC006B67A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478CD174252405AC006B67A1 /* SceneDelegate.swift */; };
-		478CD177252405AC006B67A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478CD176252405AC006B67A1 /* ViewController.swift */; };
 		478CD17A252405AC006B67A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478CD178252405AC006B67A1 /* Main.storyboard */; };
 		478CD17C252405B2006B67A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478CD17B252405B2006B67A1 /* Assets.xcassets */; };
 		478CD17F252405B2006B67A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478CD17D252405B2006B67A1 /* LaunchScreen.storyboard */; };
 		478CD18A252405B2006B67A1 /* SocialAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478CD189252405B2006B67A1 /* SocialAppTests.swift */; };
 		478CD195252405B2006B67A1 /* SocialAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478CD194252405B2006B67A1 /* SocialAppUITests.swift */; };
+		478CD1B72524B6A7006B67A1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478CD1B62524B6A7006B67A1 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		478CD16F252405AC006B67A1 /* SocialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		478CD172252405AC006B67A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		478CD174252405AC006B67A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		478CD176252405AC006B67A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		478CD179252405AC006B67A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		478CD17B252405B2006B67A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		478CD17E252405B2006B67A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		478CD190252405B2006B67A1 /* SocialAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		478CD194252405B2006B67A1 /* SocialAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialAppUITests.swift; sourceTree = "<group>"; };
 		478CD196252405B2006B67A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478CD1B62524B6A7006B67A1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +101,11 @@
 			children = (
 				478CD172252405AC006B67A1 /* AppDelegate.swift */,
 				478CD174252405AC006B67A1 /* SceneDelegate.swift */,
-				478CD176252405AC006B67A1 /* ViewController.swift */,
 				478CD178252405AC006B67A1 /* Main.storyboard */,
 				478CD17B252405B2006B67A1 /* Assets.xcassets */,
 				478CD17D252405B2006B67A1 /* LaunchScreen.storyboard */,
 				478CD180252405B2006B67A1 /* Info.plist */,
+				478CD1B62524B6A7006B67A1 /* LoginViewController.swift */,
 			);
 			path = SocialApp;
 			sourceTree = "<group>";
@@ -258,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				478CD177252405AC006B67A1 /* ViewController.swift in Sources */,
+				478CD1B72524B6A7006B67A1 /* LoginViewController.swift in Sources */,
 				478CD173252405AC006B67A1 /* AppDelegate.swift in Sources */,
 				478CD175252405AC006B67A1 /* SceneDelegate.swift in Sources */,
 			);
